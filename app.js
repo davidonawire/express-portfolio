@@ -27,9 +27,9 @@ app.get('/about', (req, res) => {
   res.render('about');
 });
 
-app.get('/project:id', (req, res) => {
+app.get('/project/:id', (req, res) => {
   const project = projects[+req.params.id];
-  res.render('about', { project });
+  res.render('project', { project });
 });
 
 app.listen(3000);
