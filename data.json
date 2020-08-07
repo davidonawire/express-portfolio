@@ -3,14 +3,14 @@
     {
       "id": 0,
       "project_name": "Random Quote Generator",
-      "description": "",
+      "description": "Lorem ipsum",
       "technologies": [
-        "",
-        "",
-        ""
+        "JavaScript",
+        "HTML",
+        "CSS"
       ],
-      "live_link": "",
-      "github_link": "",
+      "live_link": "https://davidonawire.github.io/random-quote-generator/",
+      "github_link": "https://github.com/davidonawire/random-quote-generator",
       "image_urls": [
         "",
         ""
