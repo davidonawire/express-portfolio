@@ -12,8 +12,80 @@
       "live_link": "https://davidonawire.github.io/random-quote-generator/",
       "github_link": "https://github.com/davidonawire/random-quote-generator",
       "image_urls": [
-        "",
-        ""
+        "quotes-landing.jpg",
+        "quotes-01.jpg",
+        "quotes-02.jpg"
+      ]
+    },
+    {
+      "id": 1,
+      "project_name": "List Pagination",
+      "description": "Lorem ipsum",
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "live_link": "https://davidonawire.github.io/list-pagination/",
+      "github_link": "https://github.com/davidonawire/list-pagination",
+      "image_urls": [
+        "pagination-landing.jpg",
+        "pagination-01.jpg",
+        "pagination-02.jpg",
+        "pagination-03.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "Interactive Form with Validation",
+      "description": "Lorem ipsum",
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "live_link": "https://davidonawire.github.io/interactive-form/",
+      "github_link": "https://github.com/davidonawire/interactive-form",
+      "image_urls": [
+        "formvalidation-landing.jpg",
+        "formvalidation-01.jpg",
+        "formvalidation-02.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "project_name": "Phrase Hunter",
+      "description": "A study in basic object-oriented programming in JavaScript.",
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "live_link": "https://davidonawire.github.io/oop-game-show/",
+      "github_link": "https://github.com/davidonawire/oop-game-show",
+      "image_urls": [
+        "gameshow-landing.jpg",
+        "gameshow-01.jpg",
+        "gameshow-02.jpg",
+        "gameshow-03.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "Employee Directory",
+      "description": "An example of working with a REST API and asynchronous programming to build a dynamic employee directory.",
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "live_link": "https://davidonawire.github.io/employee-directory/",
+      "github_link": "https://github.com/davidonawire/employee-directory",
+      "image_urls": [
+        "directory-landing.jpg",
+        "directory-01.jpg",
+        "directory-02.jpg",
+        "directory-03.jpg"
       ]
     }
   ]
