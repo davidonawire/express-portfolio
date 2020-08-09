@@ -12,9 +12,9 @@
       "live_link": "https://davidonawire.github.io/random-quote-generator/",
       "github_link": "https://github.com/davidonawire/random-quote-generator",
       "image_urls": [
-        "quotes-landing.jpg",
-        "quotes-01.jpg",
-        "quotes-02.jpg"
+        "/static/images/quotes-landing.jpg",
+        "/static/images/quotes-01.jpg",
+        "/static/images/quotes-02.jpg"
       ]
     },
     {
@@ -29,10 +29,10 @@
       "live_link": "https://davidonawire.github.io/list-pagination/",
       "github_link": "https://github.com/davidonawire/list-pagination",
       "image_urls": [
-        "pagination-landing.jpg",
-        "pagination-01.jpg",
-        "pagination-02.jpg",
-        "pagination-03.jpg"
+        "/static/images/pagination-landing.jpg",
+        "/static/images/pagination-01.jpg",
+        "/static/images/pagination-02.jpg",
+        "/static/images/pagination-03.jpg"
       ]
     },
     {
@@ -47,9 +47,9 @@
       "live_link": "https://davidonawire.github.io/interactive-form/",
       "github_link": "https://github.com/davidonawire/interactive-form",
       "image_urls": [
-        "formvalidation-landing.jpg",
-        "formvalidation-01.jpg",
-        "formvalidation-02.jpg"
+        "/static/images/formvalidation-landing.jpg",
+        "/static/images/formvalidation-01.jpg",
+        "/static/images/formvalidation-02.jpg"
       ]
     },
     {
@@ -64,10 +64,10 @@
       "live_link": "https://davidonawire.github.io/oop-game-show/",
       "github_link": "https://github.com/davidonawire/oop-game-show",
       "image_urls": [
-        "gameshow-landing.jpg",
-        "gameshow-01.jpg",
-        "gameshow-02.jpg",
-        "gameshow-03.jpg"
+        "/static/images/gameshow-landing.jpg",
+        "/static/images/gameshow-01.jpg",
+        "/static/images/gameshow-02.jpg",
+        "/static/images/gameshow-03.jpg"
       ]
     },
     {
@@ -82,10 +82,10 @@
       "live_link": "https://davidonawire.github.io/employee-directory/",
       "github_link": "https://github.com/davidonawire/employee-directory",
       "image_urls": [
-        "directory-landing.jpg",
-        "directory-01.jpg",
-        "directory-02.jpg",
-        "directory-03.jpg"
+        "/static/images/directory-landing.jpg",
+        "/static/images/directory-01.jpg",
+        "/static/images/directory-02.jpg",
+        "/static/images/directory-03.jpg"
       ]
     }
   ]
