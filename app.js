@@ -41,7 +41,12 @@ app.use((req, res, next) => {
 
 // General error handler
 app.use((err, req, res, next) => {
-  res.status(500).send('Something went wrong!');
+  if (err.status !== 404) {
+    err.message = 'Something went wrong!';
+  }
+  res.status(err.status);
+  console.error(err);
+  res.render('error', { error: err });
 });
 
 app.listen(3000);
