@@ -32,5 +32,17 @@ app.get('/project/:id', (req, res) => {
   res.render('project', { project });
 });
 
+// Handle 404 errors
+app.use((req, res, next) => {
+  const err = new Error('Not Found');
+  err.status = 404;
+  next(err);
+});
+
+// General error handler
+app.use((err, req, res, next) => {
+  res.status(500).send('Something went wrong!');
+});
+
 app.listen(3000);
 console.log('App started and listening on port 3000.');
