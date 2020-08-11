@@ -3,4 +3,4 @@ A portfolio site built using Node, Express, and Pug templating. The site serves 
 
 ---
 ### Style Changes
-Updated color theme, including background colors, text colors, link and button colors. Added fade-in animation to project images and thumbnails. Adjusted border and box-shadow of project images.
+Updated color theme, including background colors, text colors, link and button colors. Corrected fonts to display Lato correctly. Added fade-in animation to project images and thumbnails. Adjusted border and box-shadow of project images.
