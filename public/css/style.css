@@ -1,11 +1,17 @@
 :root {
   --main-bg-color: #e7dfd5;
+  --section-border: #dcd3c8;
   --highlight-color: #84a9ac;
   --link-color: #3b6978;
   --dark-on-light: #635545;
   --highlight-text: #886c4d;
   --dark-bg-text: #8f9fa8;
   --dark-bg-color: #204051;
+}
+
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 body {
@@ -34,6 +40,7 @@ h1,h2,h3,h4,h5,p{
   p{
     font-size: 15px;
     color: var(--dark-on-light);
+    line-height: 1.7;
   }
 
 .round{
@@ -49,7 +56,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 .button:hover{
-  background-color: #111;
+  background-color: var(--dark-bg-color);
 }
 
 a{
@@ -57,17 +64,19 @@ a{
 }
 
 a:hover{
-  color: #111;
+  color: var(--dark-bg-color);
 }
 
 .image{
   display: inline-block;
   max-width: 100%;
+  margin-top: 2rem;
   margin-bottom: 1rem;
-  border: solid 4px #fefefe;
   border-radius: 0;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
+  animation-name: fade-in;
+  animation-duration: .75s;
 }
 
 .portfolio-me{
@@ -93,13 +102,13 @@ a:hover{
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    color: #9ac8cc;
   }
 
 .portfolio-breadcrumb{
   margin: 0;
   padding: 20px;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid var(--section-border);
 }
 
  .portfolio-breadcrumb a{
@@ -128,6 +137,8 @@ a:hover{
 
   .portfolio-index .thumbnail{
     margin-bottom: 5px;
+    animation-name: fade-in;
+    animation-duration: .75s;
   }
 
   .portfolio-index a{

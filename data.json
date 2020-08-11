@@ -3,7 +3,7 @@
     {
       "id": 0,
       "project_name": "Random Quote Generator",
-      "description": "Lorem ipsum",
+      "description": "Developed as an exercise in JavaScript fundamentals. Selects a quote randomly when the user clicks the Show Another Quote button, and automatically at a set interval. The page background color changes with each new quote. Quotes can optionally include a citation source, year, and occupation.",
       "technologies": [
         "JavaScript",
         "HTML",
@@ -20,7 +20,7 @@
     {
       "id": 1,
       "project_name": "List Pagination",
-      "description": "Lorem ipsum",
+      "description": "As a demonstration of unobtrusive JavaScript, I added dynamic pagination and search filtering to an HTML-based list of students. The page gracefully degrades to the orignal HTML if JavaScript is disabled or unavailable.",
       "technologies": [
         "JavaScript",
         "HTML",
@@ -38,7 +38,7 @@
     {
       "id": 2,
       "project_name": "Interactive Form with Validation",
-      "description": "Lorem ipsum",
+      "description": "Client-side interaction and validation is fundamental to web applications, and this project is an exercise in these fundamentals using unobtrusive vanilla JavaScript. Inputs show and hide based on user interaction, and fields are validated both in real-time and on form submit. The page degrades gracefully if JavaScript is unavailable.",
       "technologies": [
         "JavaScript",
         "HTML",
@@ -55,7 +55,7 @@
     {
       "id": 3,
       "project_name": "Phrase Hunter",
-      "description": "A study in basic object-oriented programming in JavaScript.",
+      "description": "A study in basic object-oriented programming in JavaScript. Players choose letters, using either mouse or keyboard, trying to guess a hidden phrase. But you can only guess so many incorrect letters before the game ends. The program abstracts Game and Phrase objects to handle game state and phrase logic, respectively.",
       "technologies": [
         "JavaScript",
         "HTML",
@@ -73,7 +73,7 @@
     {
       "id": 4,
       "project_name": "Employee Directory",
-      "description": "An example of working with a REST API and asynchronous programming to build a dynamic employee directory.",
+      "description": "An example of working with a REST API and asynchronous programming to build a dynamic employee directory. The program makes a single API call to a mock-profiles service, and the rest of the interaction, including dynamic search, is handled with JavaScript.",
       "technologies": [
         "JavaScript",
         "HTML",
